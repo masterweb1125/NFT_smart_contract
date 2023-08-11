@@ -10,4 +10,6 @@ pub enum EscrowError {
     MissingMint,
     #[msg("Invalid mint for trade")]
     InvalidMint,
+    #[msg("Other error")]
+    Invalid,
 }
